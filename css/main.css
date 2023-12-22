@@ -1,0 +1,30 @@
+/* white: #fffffd */
+/* black: #16171e */
+/* background-color: #38385b */
+/* accent1: #3cc3e0 */
+/* accent2: #eb994a */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Luckiest Guy', cursive;
+  color: #eb994a;
+}
+
+* {
+  font-family: 'Wellfleet', monospace;
+}
+
+body {
+  background-color: #38385b;
+  color: #fffffd;
+
+  height: 100vh;
+}
+
+p {
+  line-height: 1.5;
+
+}
+
+a {
+  color: #3cc3e0
+}
