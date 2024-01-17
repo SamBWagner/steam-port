@@ -4,6 +4,21 @@
 /* accent1: #3cc3e0 */
 /* accent2: #eb994a */
 
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: local('Luckiest Guy'), url('../assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wellfleet';
+    src: local('Wellfleet'), url('../assets/fonts/Wellfleet/Wellfleet-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Luckiest Guy', cursive;
   color: #eb994a;
@@ -16,11 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background-color: #38385b;
   color: #fffffd;
-
   height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%; /* Changed from 100vw to 100% */
   align-items: center;
 }
 
@@ -39,5 +53,12 @@ p {
 }
 
 a {
-  color: #3cc3e0
+  color: #3cc3e0;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #53d4f0;
+  text-decoration: underline;
 }
