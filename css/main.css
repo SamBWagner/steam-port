@@ -6,21 +6,24 @@
 
 
 @font-face {
-    font-family: 'Luckiest Guy';
-    src: local('Luckiest Guy'), url('../assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Luckiest Guy';
+  src: local('Luckiest Guy'), url('../assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+
 }
 
 @font-face {
-    font-family: 'Wellfleet';
-    src: local('Wellfleet'), url('../assets/fonts/Wellfleet/Wellfleet-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Wellfleet';
+  src: local('Wellfleet'), url('../assets/fonts/Wellfleet/Wellfleet-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Luckiest Guy', 'sans-serif';
   color: #eb994a;
 }
 
