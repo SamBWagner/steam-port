@@ -45,8 +45,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 100%; /* Changed from 100vw to 100% */
+  width: 100%;
   align-items: center;
+  margin: 0;
 }
 
 body>* {
