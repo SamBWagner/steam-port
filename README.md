@@ -3,4 +3,5 @@ porfolio site exploring building a site in the most traditional way possible HTM
 
 The site is now hosted on a VPS which uses NGINX to serve the content. 
 
-You can find it at [samwagner.dev](https://samwagner.dev).
+[MOVED]
+This site is now running on Next.JS at [samwagner.dev](https://samwagner.dev).
